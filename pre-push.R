@@ -2,7 +2,7 @@
 
 # make sure to update version number
 
-if ( file.mtime("version.R") < file.mtime("README.md") ) {
+if ( file.mtime("track_version.R") < file.mtime("README.md") ) {
   stop("Did you update the version number?")
 }
 
